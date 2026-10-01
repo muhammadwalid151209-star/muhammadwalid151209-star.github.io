@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>W Style Barber</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #e0e4e7;
+    background-image: linear-gradient,
+                      linear-gradient(225deg, #d0d7dc 25%, transparent 25%);
+    background-size: 40px 40px;
+    min-height: 100vh;
+    padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 25px 35px;
+            background: rgba(255,255,255,0.35);
+            min-height: 100vh;
+        }
+
+        /* LOGO */
+        .logo {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .logo img {
+            width: 180px;
+            max-width: 80%;
+        }
+
+        /* NAVIGASI */
+        nav {
+            text-align: center;
+            margin: 20px 0 50px;
+        }
+
+        nav a {
+            color: #35147d;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* JUDUL */
+        h1 {
+            text-align: center;
+            font-size: 43px;
+            line-height: 1.35;
+            margin-bottom: 50px;
+        }
+
+        .slogan {
+            text-align: center;
+            font-size: 24px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        hr {
+            margin: 35px 0;
+            border: none;
+            border-top: 1px solid #999;
+        }
+
+        /* DESKRIPSI */
+        .deskripsi {
+            font-size: 23px;
+            line-height: 1.65;
+        }
+
+        .promo {
+            background: yellow;
+            padding: 2px 5px;
+            font-weight: bold;
+        }
+
+        /* MENU */
+        h2 {
+            font-size: 36px;
+            margin-top: 35px;
+        }
+
+        ul {
+            font-size: 23px;
+            line-height: 1.7;
+        }
+
+        /* TOMBOL */
+        .tombol {
+            display: block;
+            text-align: center;
+            background: #111;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            margin-top: 70px;
+            padding-bottom: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* HP */
+        @media (max-width: 500px) {
+
+            .container {
+                padding: 20px;
+            }
+
+            nav a {
+                font-size: 17px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .slogan {
+                font-size: 20px;
+            }
+
+            .deskripsi {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+
+            ul {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body background"Background.jpg">
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo W Style Barber">
+        </div>
+
+        <!-- NAVIGASI -->
+        <nav>
+            <a href="#">Beranda</a>
+            |
+            <a href="jadwal.html">jadwal oprasional</a>
+            
+        </nav>
+
+        <!-- JUDUL -->
+        <h1>
+            Selamat Datang di<br>
+            W Style Barber
+        </h1>
+
+        <!-- SLOGAN -->
+        <div class="slogan">
+            "Tampil lebih rapi, keren, dan percaya diri."
+        </div>
+
+        <hr>
+
+        <!-- DESKRIPSI -->
+        <div class="deskripsi">
+
+            W Style Barber adalah tempat pangkas rambut
+            yang menyediakan berbagai gaya rambut
+            modern dan klasik untuk pria.
+
+            Kami memberikan pelayanan terbaik dengan
+            barber profesional dan peralatan yang bersih
+            serta nyaman.
+
+            Dapatkan potongan rambut berkualitas dengan
+
+            <span class="promo">
+                harga yang sangat terjangkau
+            </span>
+
+            untuk semua kalangan.
+
+        </div>
+
+        <!-- LAYANAN -->
+        <h2>Layanan Kami</h2>
+
+        <ul>
+            <li>
+                Potong Rambut
+                <ul>
+                    <li>Classic Haircut</li>
+                    <li>Fade Haircut</li>
+                    <li>Undercut</li>
+                </ul>
+            </li>
+
+            <li>
+                Perawatan
+                <ul>
+                    <li>Hair Styling</li>
+                    <li>Cuci Rambut</li>
+                    <li>Beard Trim</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- HARGA -->
+        <h2>Harga</h2>
+
+        <ul>
+            <li>Potong Rambut — Rp15.000</li>
+            <li>Potong + Cuci — Rp20.000</li>
+            <li>Potong + Styling — Rp25.000</li>
+            <li>Potong + Cukur Jenggot — Rp25.000</li>
+        </ul>
+
+        <!-- FOOTER -->
+        <footer>
+            W Style Barber © 2026
+        </footer>
+
+    </div>
+
+</body>
+</html>
